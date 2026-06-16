@@ -1,0 +1,28 @@
+{
+  "name": "multi-platform-lister-backend",
+  "version": "1.0.0",
+  "description": "Backend proxy server for Amazon, Flipkart, Meesho, Amazon Vendor and Shopify listing APIs",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "form-data": "^4.0.0"
+  },
+  "devDependencies": {},
+  "frontend_dependencies": {
+    "recharts": "^2.10.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
